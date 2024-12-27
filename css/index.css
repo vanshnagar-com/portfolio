@@ -1,0 +1,52 @@
+body {
+  overflow-x: hidden;
+}
+.level2 {
+  animation-name: swipe;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.level2 img {
+  margin: 60px;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.level3 div {
+  box-shadow: 5px 5px 10px rgb(16, 16, 116);
+}
+
+.level3 button:active {
+  background-color: rgb(9, 9, 9);
+  transition: all;
+  transition-duration: 100ms;
+}
+
+.level3 img:hover {
+  scale: 0.9;
+  transition: all;
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+.seeMore:active {
+  background-color: #ecebfd;
+  transition: all;
+  transition-duration: 100ms;
+}
+
+.leftinput {
+  background-color: #dedcff;
+  padding: 10px 40px;
+  border-radius: 8px;
+}
