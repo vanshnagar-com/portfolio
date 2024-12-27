@@ -50,3 +50,9 @@ body {
   padding: 10px 40px;
   border-radius: 8px;
 }
+.send-button:hover {
+  background-color: rgb(6, 6, 6);
+}
+.send-button:active {
+  background-color: rgb(53, 52, 52);
+}
